@@ -7,19 +7,56 @@
    <sdef n="n"/>
    <sdef n="sg"/>
    <sdef n="pl"/>
-
+   <sdef n="vb"/>
+   <sdef n="adj"/>
+   <sdef n="prep"/>
+   <sdef n="p1"/>
+   <sdef n="p2"/>
+   <sdef n="p3"/>
+   <sdef n="inf"/>
+   <sdef n="pri"/>
 </sdefs>
 
 <pardefs>
-	<pardef n="gramofon__n">
+	<pardef n="taco__n">
 		<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
-		<e><p><l>i</l><r><s n="n"/><s n="pl"/></r></p></e>
+		<e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
 	</pardef>
+
+        <pardef n="bus__n">
+                <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+                <e><p><l>es</l><r><s n="n"/><s n="pl"/></r></p></e>
+        </pardef>
+
+	<pardef n="cactus__n">
+                <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+                <e><p><l/><r><s n="n"/><s n="pl"/></r></p></e>
+	</pardef>
+
+        <pardef n="en__prep"> 
+                <e><p><l/><r><s n="prep"/></r></p></e>
+        </pardef>
+
+        <pardef n=“viaj/ar__vb”>
+                <e><p><l>ar</l><r><s n="vb”/><s n="inf"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>o</l><r><s n="vb”/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>as</l><r><s n="vb"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+		<e><p><l>a</l><r><s n="vb"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+		<e><p><l>amos</l><r><s n="vb"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+		<e><p><l>an</l><r><s n="vb"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+		<e><p><l>an</l><r><s n="vb"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        </pardef>
+
 
 </pardefs>
 
 <section id="main" type="standard">
-	<e lm="gramofon"><i>gramofon</i><par n="gramofon__n"/></e>
+	<e lm="bus"><i>bus</i><par n="taco__n"/></e>
+        <e lm="viajar"><i>viaj</i><par n="viaj/ar__vb"/></e>
+        <e lm="termòmetro"><i>termòmetro</i><par n="taco__n"/></e>
+        <e lm="dos"><i>dos</i><par n="taco__n"/></e>
+        <e lm="mil"><i>mil</i><par n="taco__n"/></e>
+
 </section>
 
 </dictionary>

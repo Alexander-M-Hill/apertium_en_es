@@ -1,9 +1,4 @@
-declare -a sentences=("Two thousand on thermometers"
-			"Two thousand surrounding us"
-			"Travel two thousand kilometers"
-			"To hang out with us"
-			"What's up, danger? Danger"
-			"What's up, danger? Danger")
+declare -a sentences=("Two thousand on thermometers")
 
 
 for sent in "${sentences[@]}"
