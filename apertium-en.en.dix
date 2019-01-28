@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 
-<alphabet>ABCČĆDDžĐEFGHIJKLLjMNNjOPRSŠTUVZŽabcčćddžđefghijklljmnnjoprsštuvzž</alphabet>
+<alphabet>AÀBCDEÈFGHIÌJKLMNÑOÒPQRSTUÙVWXYZaàbcdeèfghiìjklmnñoòpqrstuùvwxyz</alphabet>
 
 <sdefs>
    <sdef n="n"/>
    <sdef n="sg"/>
    <sdef n="pl"/>
-
+   <sdef n="vb"/>
+   <sdef n="adj"/>
+   <sdef n="prep"/>
 </sdefs>
 
 <pardefs>
@@ -20,11 +22,34 @@
                 <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
                 <e><p><l>es</l><r><s n="n"/><s n="pl"/></r></p></e>
         </pardef>
+
+	<pardef n="on__prep">
+                <e><p><l/><r><s n="prep"/></r></p></e>
+	</pardef>
+
+        <pardef n=“travel/__vb”>
+           <e><p><l></l><r><s n="vb”/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+           <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+           <e><p><l>s</l><r><s n="vb"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+           <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+           <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+           <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        </pardef>
+	
+	
+
 </pardefs>
 
 <section id="main" type="standard">
         <e lm="gramophone"><i>gramophone</i><par n="gramophone__n"/></e>
 	<e lm="bus"><i>bus</i><par n="bus__n"/></e>
+	<e lm="travel"><i>travel</i><par n="travel/__vb"/></e>
+	<e lm="mile"><i>mile</i><par n="gramophone__n"/></e>
+        <e lm="termometer"><i>thermometer</i><par n="gramophone__n"/></e>
+        <e lm="two"><i>two</i><par n="gramophone__n"/></e>
+        <e lm="thousand"><i>thousand</i><par n="gramophone__n"/></e>
+
+
 </section>
 
 </dictionary>
