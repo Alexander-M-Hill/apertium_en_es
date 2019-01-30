@@ -11,6 +11,7 @@
    <sdef n="adj"/>
    <sdef n="prep"/>
    <sdef n="pri"/>
+   <sdef n="inf"/>
    <sdef n="p1"/>
    <sdef n="p2"/>
    <sdef n="p3"/>
@@ -32,6 +33,7 @@
 	</pardef>
 
         <pardef n="travel/__vb">
+	   <e><p><l></l><r><s n="vb"/><s n="inf"/></r></p></e>
            <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
            <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
            <e><p><l>s</l><r><s n="vb"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -52,7 +54,7 @@
         <e lm="termometer"><i>thermometer</i><par n="gramophone__n"/></e>
         <e lm="two"><i>two</i><par n="gramophone__n"/></e>
         <e lm="thousand"><i>thousand</i><par n="gramophone__n"/></e>
-
+	<e lm="on"><i>on</i><par n="on__prep"/></e>
 
 </section>
 
