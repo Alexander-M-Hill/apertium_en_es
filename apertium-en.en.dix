@@ -10,6 +10,10 @@
    <sdef n="vb"/>
    <sdef n="adj"/>
    <sdef n="prep"/>
+   <sdef n="pri"/>
+   <sdef n="p1"/>
+   <sdef n="p2"/>
+   <sdef n="p3"/>
 </sdefs>
 
 <pardefs>
@@ -27,8 +31,8 @@
                 <e><p><l/><r><s n="prep"/></r></p></e>
 	</pardef>
 
-        <pardef n=“travel/__vb”>
-           <e><p><l></l><r><s n="vb”/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <pardef n="travel/__vb">
+           <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
            <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
            <e><p><l>s</l><r><s n="vb"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
            <e><p><l></l><r><s n="vb"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>

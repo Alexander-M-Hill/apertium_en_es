@@ -1,31 +1,31 @@
-all : hbs-eng.automorf.bin \
-      hbs-eng.autogen.bin \
-#      hbs-eng.autobil.bin \
-#      hbs-eng.t1x.bin \
-      eng-hbs.automorf.bin \
-      eng-hbs.autogen.bin \
-#      eng-hbs.autobil.bin
+all : es-en.automorf.bin \
+      es-en.autogen.bin \
+      es-en.autobil.bin \
+      es-en.t1x.bin \
+      en-es.automorf.bin \
+      en-es.autogen.bin \
+      en-es.autobil.bin
 
-hbs-eng.automorf.bin : apertium-hbs.hbs.dix
-	lt-comp lr apertium-hbs.hbs.dix hbs-eng.automorf.bin
+es-en.automorf.bin : apertium-es.es.dix
+	lt-comp lr apertium-es.es.dix es-en.automorf.bin
 
-hbs-eng.autogen.bin : apertium-eng.eng.dix
-	lt-comp rl apertium-eng.eng.dix hbs-eng.autogen.bin
+es-en.autogen.bin : apertium-en.en.dix
+	lt-comp rl apertium-en.en.dix es-en.autogen.bin
 
-eng-hbs.automorf.bin : apertium-eng.eng.dix
-	lt-comp lr apertium-eng.eng.dix eng-hbs.automorf.bin
+en-es.automorf.bin : apertium-en.en.dix
+	lt-comp lr apertium-en.en.dix en-es.automorf.bin
 
-eng-hbs.autogen.bin : apertium-hbs.hbs.dix
-	lt-comp rl apertium-hbs.hbs.dix eng-hbs.autogen.bin
+en-es.autogen.bin : apertium-es.es.dix
+	lt-comp rl apertium-es.es.dix en-es.autogen.bin
 
-#hbs-eng.autobil.bin : apertium-hbs-eng.hbs-eng.dix
-#	lt-comp lr apertium-hbs-eng.hbs-eng.dix hbs-eng.autobil.bin
+es-en.autobil.bin : apertium-es-en.es-en.dix
+	lt-comp lr apertium-es-en.es-en.dix es-en.autobil.bin
 
-#eng-hbs.autobil.bin : apertium-hbs-eng.hbs-eng.dix
-#	lt-comp rl apertium-hbs-eng.hbs-eng.dix eng-hbs.autobil.bin
+en-es.autobil.bin : apertium-es-en.es-en.dix
+	lt-comp rl apertium-es-en.es-en.dix en-es.autobil.bin
 
-#hbs-eng.t1x.bin : apertium-hbs-eng.hbs-eng.t1x
-#	apertium-preprocess-transfer apertium-hbs-eng.hbs-eng.t1x hbs-eng.t1x.bin
+es-en.t1x.bin : apertium-es-en.es-en.t1x
+	apertium-preprocess-transfer apertium-es-en.es-en.t1x es-en.t1x.bin
 
 .PHONY : clean
 clean :

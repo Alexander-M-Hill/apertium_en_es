@@ -37,9 +37,9 @@
                 <e><p><l/><r><s n="prep"/></r></p></e>
         </pardef>
 
-        <pardef n=“viaj/ar__vb”>
-                <e><p><l>ar</l><r><s n="vb”/><s n="inf"/><s n="p1"/><s n="sg"/></r></p></e>
-		<e><p><l>o</l><r><s n="vb”/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <pardef n="viaj/ar__vb">
+                <e><p><l>ar</l><r><s n="vb"/><s n="inf"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>o</l><r><s n="vb"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
 		<e><p><l>as</l><r><s n="vb"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
 		<e><p><l>a</l><r><s n="vb"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 		<e><p><l>amos</l><r><s n="vb"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>

@@ -15,5 +15,9 @@
            <cat-item lemma="prpers" tags="prn.*"/>
         </def-cat>
 
+        <def-cat n="adj">
+           <cat-item tags="adj.*"/>
+        </def-cat>
+
 </section-def-cats>
 
