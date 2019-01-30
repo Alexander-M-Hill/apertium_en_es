@@ -57,6 +57,8 @@
         <e lm="dos"><i>dos</i><par n="taco__n"/></e>
         <e lm="mil"><i>mil</i><par n="bus__n"/></e>
 	<e lm="en"><i>en</i><par n="en__prep"/></e>
+	<e lm="para"><i>para</i><par n="en__prep"/></e>
+	<e lm="con"><i>con</i><par n="en__prep"/></e>
 
 </section>
 

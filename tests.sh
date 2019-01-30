@@ -1,5 +1,7 @@
 declare -a sentences=("two thousand on thermometers"
-			"travel")
+			"two thousand surrounding us"
+			"travel two thousand kilomters"
+			"to hang out with us")
 
 
 for sent in "${sentences[@]}"
