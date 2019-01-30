@@ -13,7 +13,11 @@
 
 	   <def-cat n="prpers">
 	     <cat-item lemma="prpers" tags="prn.*"/>
-   	</def-cat>
+      </def-cat>
+
+           <def-cat n="prep">
+             <cat-item lemma="prep" tags="prep.*"/>
+      </def-cat>
 
    </section-def-cats>
    
